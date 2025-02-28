@@ -1,35 +1,7 @@
-/// <reference types="vite-plugin-svgr/client" />
 import './App.css'
 import profile from './assets/profile.jpg';
-import ReactLogo from './assets/reactjs-icon.svg?react';
-import JavaLogo from './assets/java-icon.svg?react';
-import SpringLogo from './assets/springio-icon.svg?react';
-import KafkaLogo from './assets/apache_kafka-icon.svg?react';
-import JSLogo from './assets/javascript-icon.svg?react';
-import MongoLogo from './assets/mongodb-icon.svg?react';
 
-interface Project {
-  photo: string,
-  title: string,
-  desc: string
-}
 const App = () => {
-
-  const projects: Array<Project> =
-    [
-      {
-        photo: profile,
-        title: 'Portfolio',
-        desc: 'A react application built for personal portfolio'
-      },
-      {
-        photo: profile,
-        title: 'Portfolio',
-        desc: 'A react application built for personal portfolio'
-      },
-
-
-    ];
 
   return (
     <>
